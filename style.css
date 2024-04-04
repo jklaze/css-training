@@ -1,8 +1,8 @@
         :root {
+            /*section 3*/
             --btn-bg-color: #3882f6;
-            /* Definizione di una variabile con nome '--colore-principale' e valore '#ff0000' */
+            /*section 4*/
             --queue-background: #e5e7eB;
-            /* Definizione di una variabile per la dimensione del testo */
         }
 
         @font-face {
@@ -44,15 +44,15 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding-bottom: 40px ;
         }
 
         .section-2 .program-details-section {
             display: flex;
             justify-content: space-between;
-            margin-top: 30px;
+            margin-top: 20px;
             width: 65%;
             height: 100%;
-            border: 2px solid black;
         }
 
         .program-details-section .detail-element {
@@ -63,7 +63,7 @@
         }
 
         .program-details-section .detail-element p {
-            margin-top: 20px;
+            margin-top: 10px;
             text-align: center;
         }
 
@@ -78,7 +78,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: #e5e7eB;
+            background-color: var(--queue-background);
             width: 100%;
             height: 100%
         }
@@ -87,7 +87,6 @@
             display: flex;
             flex-direction: column;
             width: 60%;
-            border:  2px solid green;
             max-height: 80%;
         }
         .quote-section h4{
@@ -98,15 +97,4 @@
             max-height: 100%;
             padding:  100px 0 ;
         }
-
-
-
-
-        /* @media  (min-width:230px) {
-            .detail-element img {
-                width: 20vw;
-                height: 10vh;
-                border: 4px solid var(--btn-bg-color);
-            }
-        } */
         
