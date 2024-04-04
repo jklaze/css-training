@@ -33,29 +33,26 @@
 
         body {
             font-family: "Roboto", sans-serif;
-            font-size: 16px;
+            font-size: 18px;
         }
 
-        /*  section 3 */
 
+        /*  section 2 */
 
-        .section-3 {
+        .section-2 {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-
-
         }
 
-        .section-3 .program-details-section {
+        .section-2 .program-details-section {
             display: flex;
             justify-content: space-between;
             margin-top: 30px;
             width: 65%;
             height: 100%;
             border: 2px solid black;
-
         }
 
         .program-details-section .detail-element {
@@ -76,7 +73,7 @@
             border: 6px solid var(--btn-bg-color);
         }
 
-        .section-4 {
+        .section-3 {
             display: flex;
             flex-direction: column;
             justify-content: center;
