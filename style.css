@@ -135,7 +135,7 @@
         /*  section 2 */
 
         .section-2 {
-            padding-bottom: 40px ;
+            padding: 40px 0 ;
         }
 
         .section-2 .program-details-section {
@@ -144,6 +144,10 @@
             margin-top: 20px;
             width: 65%;
             height: 100%;
+        }
+
+        h3{
+            padding-bottom: 20px;
         }
 
         .program-details-section .detail-element {
@@ -159,10 +163,16 @@
         }
 
         .detail-element .img {
+            display: flex;
             width: 180px;
             height: 180px;
             border: 4px solid var(--bg-color-accent);
             border-radius: 15px;
+        }
+
+        .img img{
+            margin: auto;
+            width: 140px;
         }
 
 
@@ -189,4 +199,49 @@
             max-height: 100%;
             padding:  100px 0 ;
         }
+
+        .quote-section span{
+            font-size: larger;
+            margin-bottom: 40px;
+            text-align: end;
+        }
         
+        /* Section 4 */
+
+        .section-4 {
+            border: #1f2937 2px solid;
+        }
+        .section-4 .CTA-element{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 50%;
+            height: 100px;
+            margin: 100px;
+            background-color: #2668c6;
+            color: var(--bg-color-secondary);
+            border-radius: 10px ;
+
+        }
+
+        .section-4 input[type="button"]{ 
+            color: var(--bg-color-secondary);
+            background-color: transparent;
+            padding: 5px;
+            border: 2px solid var(--bg-color-secondary);
+            border-radius: 5px ;
+        }
+
+        /* Footer */
+
+        footer{
+           display: flex;
+            height: 100px;
+            background-color: var(--bg-color-primary);
+        }
+
+        footer p {
+            margin: auto;
+            color: var(--bg-color-secondary);
+        }
