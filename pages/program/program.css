@@ -1,0 +1,50 @@
+:root {
+    --bg-color-primary: #1f2937;
+    --bg-color-accent: #3882f6;
+    --bg-color-secondary: #e5e7eb;
+
+    --text-color-primary: #1f2937;
+    --text-color-accent: #f9faf8;
+    --text-color-secondary: #e5e7eb;
+}
+
+body{
+    display: flex;
+    height: 800px;
+    background-color: var(--bg-color-primary);
+}
+
+.table h1{
+    text-align: center;
+    color: var(--bg-color-secondary);
+}
+.table{
+    margin: auto;
+}
+
+table{
+    width: 60vw;
+    height: 500px;
+}
+
+    tr{
+        background-color: var(--text-color-accent);
+        margin: 0;
+        
+        
+    }
+ tr th{
+    width: 100%;
+    background-color: var(--bg-color-accent);
+    color: aliceblue;
+    text-align: center;
+    border: 2px solid black;
+
+    
+}
+
+td{
+    text-align: center;
+    border:   2px solid black;
+  
+}
