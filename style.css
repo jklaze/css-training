@@ -119,6 +119,7 @@
         .page-about .section-1,
         .page-program .section-1{
             padding-bottom: 40px;
+            flex-direction: column;
         }
         .page-1 .section-1{
             flex-wrap: wrap-reverse;
@@ -133,19 +134,16 @@
             min-width: 300px;
             padding-right: 20px;
         }
-        .page-program .hero,
-        .page-about .hero{
-            width: 80%;
-        }
 
-        .hero .hero-main {
+        .hero-main {
             font-family: "Roboto-ExtraBold", Arial, Helvetica, sans-serif;
             color: var(--text-color-accent);
             font-size: 48px;
             margin-bottom: 20px;
+            align-self: start;
         }
 
-        .hero .hero-sub {
+        .hero-sub {
             color: var(--text-color-secondary);
             font-size: 18px;
             margin-bottom: 20px;
@@ -285,6 +283,12 @@
         }
         .page-about .detail-element img{
             padding: 0px;
+        }
+
+        .section-2 figcaption {
+            font-family: "Roboto-Light", Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            line-height: 1.6;
         }
 
 
