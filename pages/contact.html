@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About us</title>
+    <title>Contact us</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../style.css">
@@ -20,8 +20,39 @@
             <a class="nav-elem selected" href="#">Contact</a>
         </div>
     </header>
-    <main class="page-2">
-        <!-- TODO: implement -->
+    <main class="page-contact">
+        <!-- styled demo form to contact the company about the courses and other info -->
+        <section class="section section-1">
+            <div class="hero">
+                <p class="hero-main">Contact us</p>
+                <p class="hero-sub text-light">
+                    If you have any questions or need more information about our program, feel free to contact us. We are
+                    here to help you.
+                </p>
+            </div>
+            <div class="contact-form">
+                <div class="form-header">
+                    <p>Send us a message</p>
+                </div>
+                <div class="form-body">
+                    <div class="form-element">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div class="form-element">
+                        <button class="cta-button">Send</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <img src="../images/main-logo.png" alt="BRANKO" height="30px">
