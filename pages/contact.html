@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,31 +9,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../style.css">
 </head>
+
 <body>
     <header>
         <a class="logo" href="..">
             Branko
             <!-- <img src="../images/main-logo.png" alt="BRANKO" height="28px"> -->
         </a>
-        <div class="nav-bar">
-            <a class="nav-elem" href="about.html">About</a>
-            <a class="nav-elem" href="program.html">Program</a>
-            <a class="nav-elem selected" href="#">Contact</a>
-        </div>
+        <nav>
+            <a class="nav-elem text-light" href="about.html">About</a>
+            <a class="nav-elem text-light" href="program.html">Program</a>
+            <a class="nav-elem text-light selected" href="#">Contact</a>
+        </nav>
     </header>
     <main class="page-contact">
         <section class="section section-1">
-            <div class="hero">
-                <p class="hero-main">Contact us</p>
+            <aside class="hero">
+                <h1 class="hero-main">Contact us</h1>
                 <p class="hero-sub text-light">
                     If you have any questions or need more information about our program, feel free to contact us. We are
                     here to help you.
                 </p>
-            </div>
+            </aside>
             <div class="contact-form">
-                <div class="form-header">
-                    <p>Send us a message</p>
-                </div>
+                <h4 class="form-header">Send us a message</h4>
                 <div class="form-body">
                     <div class="form-element">
                         <label for="name">Name:</label>
@@ -46,9 +46,7 @@
                         <label for="message">Message:</label>
                         <textarea id="message" name="message" required></textarea>
                     </div>
-                    <div class="form-element">
-                        <button class="cta-button">Send</button>
-                    </div>
+                    <button class="form-element cta-button">Send</button>
                 </div>
             </div>
         </section>
