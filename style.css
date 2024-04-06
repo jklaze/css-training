@@ -272,11 +272,13 @@
 
         footer{
             display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
             height: 100px;
             background-color: var(--bg-color-primary);
         }
 
         footer p {
-            margin: auto;
             color: var(--bg-color-secondary);
         }
