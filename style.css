@@ -170,6 +170,9 @@
             min-width: 120px;
             min-height: 40px;
         }
+        .page-program a {
+            min-width: 250px;
+        }
 
         .contact-form {
             display: flex;
